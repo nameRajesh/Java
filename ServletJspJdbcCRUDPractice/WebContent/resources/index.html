@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First bootstrap project</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/me.css">
+</head>
+<body data-spy="scroll" data-target="#my-navbar">
+<!-- navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="" class="navbar-brand">
+					<img src="image/logo.png" height="30" width="150">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			<a href="" class="btn btn-warning navbar-btn navbar-right">Download now</a>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#feture">Feture</a></li>
+					<li><a href="#course">Course</a></li>
+					<li><a href="#Contact">Contact</a></li>
+					<li><a href="">Help</a></li>
+				</ul>
+			<ul class="nav navbar-nav navbar-right">
+		            <li><a href="#">Home</a></li>       
+		            <li><a href="#about">About</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes <b class="caret"></b></a>
+		              <ul class="dropdown-menu">
+		             	<li class="dropdown-header">Admin & Dashboard</li>
+		                <li><a href="#">Admin 1</a></li>
+		                <li><a href="#">Admin 2</a></li>
+		                <li class="divider"></li>
+		                <li class="dropdown-header">Portfolio</li>
+		                <li><a href="#">Portfolio 1</a></li>
+		                <li><a href="#">Portfolio 2</a></li>
+		              </ul>
+		            </li>            
+		            <li><a href="#">Contact</a></li>
+		         </ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center">
+		<br>
+			<h1><b><font color="#00008B">Broadway</font> <font color="#FF8C00">Infosys</font> <font color="#00008B">Nepal</font></b></h1>
+			<p>Professional Infomation Techonology(IT) learning center</p>
+			<div class="btn-group">
+				<a href="" class="btn btn-lg btn-info">Download Apps</a>
+				<a href="" class="btn btn-lg btn-info">Video Store</a>
+				<a href="" class="btn btn-lg btn-info">Book Store</a>
+			</div>
+		</div>
+	</div><!-- end jumbotrun -->
+
+	<div class="container">
+		<section>
+			<div class="page-header" id="home">
+				<h2>Broadwar Infosys Nepal &nbsp;<small>Professional IT Tranning</small></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<blockquote>
+						<h3>ABOUT US</h3>
+						<p>Broadway infosys nepal is one of the bast inclusive conputer tranining institutes in Kathmandu, Nepal. Established in 2008, our professional IT Training and Development center has been employing expeerts in this filed to impart profiessional education to trainees.We offer well-structured computer professional training invarious Programming Language,Graphics &  Multimedia, Web Designing as well as Development Training that is based upon the current recuitment needs of the IT industroy.</p>
+						<footer>Uttam Adhakari</footer>
+					</blockquote>
+				</div>
+				<div class="col-md-4">
+					<blockquote>
+						<h3>VISION</h3>
+						<p>To empower the nation through generation of computer literates and computer IT professional who could serve as valuable resource and responsible innvoative citizens.</p>
+						<footer>Broadway Infosys Nepal</footer>
+					</blockquote>
+				</div>
+				<div class="col-md-4">
+					<blockquote>
+						<h3>MISSION</h3>
+						<p>Broadway infosys nepal's is and will be dedicated to develop to develop ana impart quality IT training and serviceto all, achieving excellence in creative, innovative and up to-data teaching-learning, facilitating effective interactions among faculty, management and student and acting as a contributing instutation for the employees, society and all stakeholder.</p>
+						<footer>Broadway Infosys Nepal</footer>
+					</blockquote>
+				</div>
+			</div><!-- end row -->
+		</section>
+	</div><!-- end container -->
+
+	<!-- call to action -->
+	<section>
+		<div class="well">
+			<div class="container text-center">
+				<h3>Subscribe for more intutation</h3>
+				<p>Enter your name and Email</p>
+				<form method="post" action="" class="form-inline">
+					<div class="form-group">
+						<label>Sucribe</label>
+						<input type="text" class="form-control" placeholder ="Your Name">
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<input type="text" class="form-control" placeholder="Enter your Email">
+					</div>
+					<button type="submit" class="btn btn-warning">Send</button>
+					<hr>
+				</form>
+			</div><!-- end container -->
+		</div><!-- end well -->
+	</section><!-- end section -->
+
+	<!-- Gallery -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery &nbsp;<small>Professional IT Gallery</small></h2>
+			</div>
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="image/0.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Broadway Infosys Nepal</h3>
+							<p>Professional IT Learning Center</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/n2.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Broadway Infosys Nepal</h3>
+							<p>Professional IT Learning Center</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/n3.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Broadway Infosys Nepal</h3>
+							<p>Professional IT Learning Center</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/na.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Broadway Infosys Nepal</h3>
+							<p>Professional IT Learning Center</p>
+						</div>
+					</div>
+				</div>
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</section>
+	</div><!-- end container -->
+
+	<!-- feture -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="feture">
+				<h2>Feture &nbsp;<small>Professional IT Feture</small></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-8">
+					<h3>JAVA Programming</h3>
+					<p>Java is a general purpose, high-level programming language developed by Sun Microsystems. A small team of engineers, known as the Green Team, initiated the language in 1991. Java was originally called OAK, and was designed for handheld devices and set-top boxes. Oak was unsuccessful, so in 1995 Sun changed the name to Java and modified the language to take advantage of the burgeoning World .</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/download.png" class="img-responsive" alt="image">
+				</div>
+			</div><!-- end row -->
+			<div class="row">
+				<div class="col-lg-8">
+					<h3>PHP Programming</h3>
+					<p>Let us do something more useful now. We are going to check what sort of browser the visitor is using. For that, we check the user agent string the browser sends as part of the HTTP request. This information is stored in a variable. Variables always start with a dollar-sign in PHP. The variable we are interested in right now is $_SERVER['HTTP_USER_AGENT'].</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/download.jpg" class="img-responsive" alt="image">
+				</div>
+			</div><!-- end row -->
+			<div class="row">
+				<div class="col-lg-8">
+					<h3>WEB Design</h3>
+					<p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.[1] The term web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing mark up. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and if their role involves creating mark up then they are also expected to be up to date with web accessibility guidelines.</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="image/images.jpg" class="img-responsive" alt="image">
+				</div>
+			</div><!-- end row -->
+
+			<hr >
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+						<span class="glyphicon glyphicon-star"></span>
+							<h3>Basic Concept</h3>
+							<p>In the previous code example, we wrote your first BASIC program. In it, you saw examples of PRINT, CLS, and END commands. Their roles in the program may or may not have been apparent at the time, but, as they're so vital to the BASIC language, they will be discussed here.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+						<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+							<h3>Advance Concept</h3>
+							<p>An Advanced Java Tutorial aimed towards the Developer Who Already has Learned the Fundamentals of Java Programming. In this Advanced Java Programming training course, expert content provider Infinite Skills builds on the beginners Java course, and goes deeper into programming topics that help you to understand these more advanced Java concepts. Designed for the more experienced Java developer, you should have a good .</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+						<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+							<h3>Framwork Concept</h3>
+							<p>Text Services Framewor Purpose Microsoft Windows Text Services Framework (TSF) is a system service available as a redistributable for Windows 2000. TSF provides a simple and scalable framework for the delivery of advanced text input and natural language technologies. TSF can be enabled in applications, or as a TSF text service. A TSF text service provides multilingual support and delivers text services such as keyboard processors, handwriting recognition, and speech recognition..</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end row -->
+		</section>
+	</div>
+
+	<!-- course -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="course">
+				<h2>Course &nbsp;<small>Professional IT Course</small></h2>
+			</div>
+
+			<div class="panel panel-default">
+
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#c" data-toggle="collapse" data-parent="#accordion">C & C#</a>
+						</div><!-- panel title -->
+						<div id="c" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ol>
+									<li>Basic</li>
+									<li>1.5 Months Class</li>
+									<li>Dally 1.5 houres classes</li>
+									<li>Video Fasalaty</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#java-1" data-toggle="collapse" data-parent="#accordion">Java Programming</a>
+						</div><!-- panel title -->
+						<div id="java-1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ol>
+									<li>Basic to advance</li>
+									<li>Advance to framwork</li>
+									<li>3 Months Class</li>
+									<li>Dally 1.5 houres classes</li>
+									<li>Video Fasalaty</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#php" data-toggle="collapse" data-parent="#accordion">php Programming</a>
+						</div><!-- panel title -->
+						<div id="php" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ol>
+									<li>Basic to advance</li>
+									<li>Advance to framwork</li>
+									<li>3 Months Class</li>
+									<li>Dally 1.5 houres classes</li>
+									<li>Video Fasalaty</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#web" data-toggle="collapse" data-parent="#accordion">Web Design</a>
+						</div><!-- panel title -->
+						<div id="web" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ol>
+									<li>Basic Web Apps</li>
+									<li>Bootstrap framwork</li>
+									<li>2 Months Class</li>
+									<li>Dally 1.5 houres classes</li>
+									<li>Video Fasalaty</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#and" data-toggle="collapse" data-parent="#accordion">Android Programming</a>
+						</div><!-- panel title -->
+						<div id="and" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ol>
+									<li>Basic to advance</li>
+									<li>Advance to framwork</li>
+									<li>3 Months Class</li>
+									<li>Dally 1.5 houres classes</li>
+									<li>Video Fasalaty</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#ios" data-toggle="collapse" data-parent="#accordion">IOS Programming</a>
+						</div><!-- panel title -->
+						<div id="ios" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ol>
+									<li>Basic to advance</li>
+									<li>Advance to framwork</li>
+									<li>3 Months Class</li>
+									<li>Dally 1.5 houres classes</li>
+									<li>Video Fasalaty</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div> <!-- end panel -->
+		</section>
+	</div>
+
+	<!-- Contact -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="Contact">
+				<h2>Contact &nbsp;<small>Professional IT Contact</small></h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Send us a Message, or conact us form the given below</p>
+					<address>
+						<strong>Broadway Infosys Nepal</strong><br>
+						santinager tinkuna , kathmandu nepal<br/>
+						Bickram2@hotmail.com<br/>
+						98437556684
+					</address>
+				</div>
+				<div class="col-lg-8">
+					<form method="post" action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-lable">Name</label>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="user-name" placeholder="Enter Your Name">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="col-lg-2 control-lable">Email</label>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="email" placeholder="E-mail ID">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="message" class="col-lg-2 control-lable">Message</label>
+							<div class="col-lg-8">
+								<textarea class="form-control" id="user-name" placeholder="Enter Your Name" rows="5"></textarea>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Send</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="container text-center">
+				<h3>Subscribe for more intutation</h3>
+				<p>Enter your name and Email</p>
+				<form method="post" action="" class="form-inline">
+					<div class="form-group">
+						<label>Sucribe</label>
+						<input type="text" class="form-control" placeholder ="Your Name">
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<input type="text" class="form-control" placeholder="Enter your Email">
+					</div>
+					<button type="submit" class="btn btn-warning">Send</button>
+				</form>
+				<hr>
+				<ul class="list-inline">
+					<li><a href="">FaceBook</a></li>
+					<li><a href="">Twitter</a></li>
+				</ul>
+				<p>&copy; Copyright 2016</p>
+			</div><!-- end container -->
+	</footer>
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
